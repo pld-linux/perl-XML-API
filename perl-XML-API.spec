@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	API
 Summary:	XML::API - Perl extension for creating XML documents
-Summary(pl):	XML::API - rozszerzenie Perla do tworzenia dokumentów XML
+Summary(pl.UTF-8):   XML::API - rozszerzenie Perla do tworzenia dokumentÃ³w XML
 Name:		perl-XML-API
 Version:	0.09
 Release:	1
@@ -33,17 +33,17 @@ advantage of having the in-memory tree is that you can be very
 flexible about when different parts of the document are created and
 the final output is always nicely rendered.
 
-%description -l pl
-XML::API to klasa do tworzenia dokumentów XML przy u¿yciu wywo³añ
-metod obiektów. Ta klasa s³u¿y do programowego generowania XML-a, ale
+%description -l pl.UTF-8
+XML::API to klasa do tworzenia dokumentÃ³w XML przy uÅ¼yciu wywoÅ‚aÅ„
+metod obiektÃ³w. Ta klasa sÅ‚uÅ¼y do programowego generowania XML-a, ale
 nie czytania czy przetwarzania go.
 
-Metody obiektu XML::API wywodz± siê bezpo¶rednio z dokumentu XML
-Schema Definition dla ¿±danego typu dokumentu. Autor dokumentu
-wywo³uje odpowiednie metody (reprezentuj±ce elementy), aby stworzyæ w
-pamiêci drzewo XML, które mo¿e byæ wyrenderowane albo zapisane. Zalet±
-posiadania drzewa w pamiêci jest du¿a elastyczno¶æ przy tworzeniu
-ró¿nych czê¶ci dokumentu i ³adny rendering ostatecznego wyj¶cia.
+Metody obiektu XML::API wywodzÄ… siÄ™ bezpoÅ›rednio z dokumentu XML
+Schema Definition dla Å¼Ä…danego typu dokumentu. Autor dokumentu
+wywoÅ‚uje odpowiednie metody (reprezentujÄ…ce elementy), aby stworzyÄ‡ w
+pamiÄ™ci drzewo XML, ktÃ³re moÅ¼e byÄ‡ wyrenderowane albo zapisane. ZaletÄ…
+posiadania drzewa w pamiÄ™ci jest duÅ¼a elastycznoÅ›Ä‡ przy tworzeniu
+rÃ³Å¼nych czÄ™Å›ci dokumentu i Å‚adny rendering ostatecznego wyjÅ›cia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
