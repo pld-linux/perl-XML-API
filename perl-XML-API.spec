@@ -8,12 +8,12 @@
 Summary:	XML::API - Perl extension for creating XML documents
 Summary(pl.UTF-8):	XML::API - rozszerzenie Perla do tworzenia dokumentów XML
 Name:		perl-XML-API
-Version:	0.24
+Version:	0.25
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1db1eb8ca8e33a894e175b9c8a8163c1
+# Source0-md5:	9558636dba8f8d415e9bf7f61b1dbde3
 BuildRequires:	perl(XML::LibXML::SAX)
 BuildRequires:	perl-XML-Parser
 BuildRequires:	perl-devel >= 1:5.8.0
