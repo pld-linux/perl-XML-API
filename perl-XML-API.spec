@@ -4,7 +4,6 @@
 
 %define	pdir	XML
 %define	pnam	API
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::API - Perl extension for creating XML documents
 Summary(pl.UTF-8):	XML::API - rozszerzenie Perla do tworzenia dokumentów XML
 Name:		perl-XML-API
